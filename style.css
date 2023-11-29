@@ -1,0 +1,52 @@
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+        .container { width: 80%; margin: auto; overflow: hidden; }
+        header { background: #333; color: white; padding-top: 30px; min-height: 70px; border-bottom: #bbb 1px solid; }
+        header a { color: #fff; text-decoration: none; text-transform: uppercase; font-size: 16px; }
+        header ul { padding: 0; list-style: none; }
+        header li { display: inline; margin: 0 20px; }
+        header #branding { float: left; }
+        header #branding h1 { margin: 0; }
+        header nav { float: right; margin-top: 10px; }
+        header .highlight, header .current a { color: #e8491d; font-weight: bold; }
+        header a:hover { color: #ffffff; font-weight: bold; }
+        .banner { padding: 5px 0 5px 20px; background-color: #e8491d; }
+        .banner h1, .banner .lead { color: white; }
+        .main-col { float: left; width: 70%; }
+        .sidebar { float: right; width: 30%; background: #333; color: white; padding: 10px; }
+        .footer { padding: 20px; margin-top: 20px; color: #ffffff; background-color: #333; text-align: center; }
+        .picture { max-width: 100px; height: auto; }
+
+.skills-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skill-card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 30%;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .skill-card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .skill-icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .skill-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .skill-list {
+            list-style: none;
+            padding: 0;
+        }
